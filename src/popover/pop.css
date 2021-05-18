@@ -1,0 +1,49 @@
+/*#overlay-div{
+    
+   
+        position: absolute;
+        
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(228, 195, 195, 0.5);
+        z-index: 1;
+        cursor: pointer;
+        
+      
+}*/
+#picpop{
+        background-color: rgba(228, 195, 195, 0.5);
+}
+.modal-90w{
+        width:90%;
+        border:3px solid red;
+}
+.modal-70w{
+        min-width:500px;
+        max-width: max-content;
+        width:75%;
+        border:0px solid red;
+}
+.pmin-wid{
+/*min-width: 250px;*/
+}
+#bimg-gol{
+     /*   min-width: 400px;*/
+}
+.modal-opacity{
+        opacity:0.5;
+}
+.pop-btn{
+        position: absolute;
+        bottom:0;
+        left:0;
+        z-index: 1;
+        opacity: 0.7;
+}
+.pop-btn-con{
+position:relative;
+ }

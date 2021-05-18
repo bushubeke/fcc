@@ -1,0 +1,294 @@
+
+#control-box{
+    margin-left:0px;
+    margin-right: 0px;
+
+}
+#search_inp{
+/*max-width: 240px;*/
+
+}
+#rc11{
+  
+  margin:0px 0px 0px 5px;
+  padding: 1px 1px 1px 1px;
+  min-width: 185px;
+  border-style: solid;
+  border-width: 0px;
+  border-color: black;
+  background-color: lightgray;
+ 
+
+}
+#rc12{
+  border-style: solid;
+  border-width: 0px;
+  border-color: black;
+  margin:0px 5px 0px 0px;
+  padding: 1px 1px 1px 1px;
+  background-color: lightgray;
+ 
+}
+#picrow{
+  
+  margin:5px 5px 5px 5px ;
+}
+#picbutrow{
+    margin-left:5px;
+    margin-right: 5px;
+  margin-top:20px;
+}
+#msgbox{
+    border-style: solid;
+    border-width: 0px;
+    border-color: red;
+    margin-bottom: 10px;
+
+}
+#rc21{
+  border-style: solid;
+  border-width: 0px;
+  border-color: black;
+  margin: 0px 0px 5px 5px;
+  padding: 5px 5px 5px 5px;
+  min-height: 200px;
+  min-width: 185px;
+  height: 99%;
+  background-color: lightgrey;
+
+}
+
+#rc22{
+  border-style: solid;
+  border-width: 2px;
+  border-color: grey;
+  margin:0px 5px 5px 0px;
+  min-height: 200px;
+  height: 99%;
+  background-color: darkgray;
+  border-radius: 0px 0px 10px 0px;
+
+}
+#inputbox{
+  border-style: solid;
+  border-width: 0px;
+  margin-top: 10px;
+  border-color: red;
+}
+#fr{
+  background-color: white;
+  margin:3px 3px 0px 3px;
+  min-width: 999px;
+  border-style: solid;
+  border-width: 0px;
+  
+  min-height: 95px;
+}
+
+@media screen and (max-height:700px){
+  
+}
+
+#sr{
+  background-color: white;
+
+  margin:0px 3px 3px 3px;
+  min-height: 650px;
+  min-width: 999px;
+  border-style: solid;
+  border-width: 0px;
+
+}
+
+#chatting{
+  width:max-content;
+  height: 100vh;
+  
+}
+
+#frm{
+  background-color: darkgray;
+  
+  
+
+  height: 8vh;
+  
+}
+
+
+#srm{
+  background-color: lightgray;
+
+ 
+  min-height: 478px;
+ 
+  height: 92vh;
+
+
+}
+#mob-main-con{
+  width:100%;
+}
+
+#inputboxm{
+  width:100%;
+  
+  height: vh;
+}
+#all-app{
+  width:97vw;
+}
+body{
+  background-color: gray;
+}
+.mnav-btn{
+  height: 98%;
+  width: 100%;
+  margin:auto auto auto auto;
+}
+.xxxl-p{
+  margin: auto;
+  font-size: xxx-large;
+  margin-left: 20px;
+}
+.sm-p{
+  font-size:x-large;
+  
+}
+.mobmes-con{
+  overflow-y: auto;
+  max-height: 79vh;
+  min-height: 79vh;
+ 
+  
+}
+.mobmes-con p{
+  font-size: x-large;
+  margin:auto;
+  
+}
+/* this styling of scroll bar is taken from codepen io web source*/
+.style-10::-webkit-scrollbar
+{
+ width: 5px;
+ background-color: #F5F5F5;
+}
+
+.style-10::-webkit-scrollbar-thumb
+{
+ background-color: #AAA;
+ border-radius: 11px;
+ 
+}
+#pic-sec-btn-group{
+  position: absolute;
+  bottom:0;
+  left:0;
+  z-index: 1;
+  opacity: 0.7;
+}
+#pic-sec-card-group{
+  position:relative;
+}
+.car-tit{
+  margin-left: 15px;
+  margin-top: 10  px;
+}
+.form-cont{
+  background-color: lightgrey;
+  padding:15px 15px 15px 15px;
+ 
+  border-radius: 15px 15px 15px;
+  min-width: 25vw;
+  min-height: 36vh;
+  font-size: x-large;
+}
+body{
+  height:100vh;
+}
+.form-contm{
+  background-color: lightgrey;
+  padding:15px 15px 15px 15px;
+ 
+  border-radius: 15px 15px 15px;
+  min-width: 80vw;
+  min-height: 35vh;
+  font-size:40px;
+}
+.form-contm input{
+  min-height: 6vh;
+  font-size: 50px;
+}
+.spacing{
+  padding: 20px 20px auto auto;
+}
+#sinput-form{
+  min-width:400px
+}
+.style404{
+  background-color: lightgrey;
+  padding:15px 15px 15px 15px;
+ 
+  border-radius: 15px 15px 15px;
+  min-width: 25vw;
+  min-height: 36vh;
+}
+.clock-con{
+  min-height: 100vh;
+  min-width:96vw ;
+}
+.calc-con{
+  min-height: 100vh;
+  min-width:96vw ;
+}
+.mark-con{
+  min-height: 100vh;
+  min-width:96vw ;
+}
+.calbound{
+  background-color: lightgrey;
+  max-width:350px;
+  border-radius:10px 10px 10px 10px;
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
+}
+
+.conmar-cal{
+  margin:100px auto 50px auto;
+}
+
+.home-carousel-con{
+  background-color: darkgrey;
+}
+.trans-text-input{
+  overflow-wrap: break-word;
+}
+
+#content{
+  width:100vw!important;
+  height: 87vh !important;
+}
+#root{
+ width:100vw!important;
+  height: 100vh !important; 
+}
+#quote-box{
+  max-width:450px;
+  min-width: 400px;
+  padding:20px;
+  border:solid;
+  border-width: 1px;
+  border-color: black;
+  border-radius: 10px;
+  margin:auto;
+}
+#tweet-quote{
+  margin:5px;
+}
+#tumblr-quote{
+  margin:5px;
+}
+#new-quote{
+  float:right !important;
+  }
